@@ -1,0 +1,89 @@
+
+body{
+  margin-top: 90px;
+}
+/*navbar*/
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+.nav-item{
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+.nav-item :last-child{
+  padding-right: 0;
+}
+.navbar-nav .nav-item .nav-link{
+  color: #252525;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: #3292a6;
+}
+/*navbar end*/
+
+/*About Section Start*/
+#showcase{
+  background-image: url('../img/home.jpg');
+  background-size: cover;
+  position: relative;
+  min-height:600px;
+
+}
+.primary-overlay{
+  background: rgba(50, 146, 156, 0.7);
+  position: absolute;
+  min-height:600px;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.btn-lg, .btn{
+  border-radius: 0;
+}
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 4rem;
+  }
+
+}
+/*about end*/
+
+
+/*Subscribe*/
+.form-group .form-control-lg {
+  border-radius: 0;
+}
+#subscribe{
+  background: #252525;
+}
+.card{
+  border-radius: 0;
+}
+
+/*author*/
+#authors img{
+  margin-top: -60px;
+}
+
+#authors .card:hover{
+ background: #17a2b8;
+ color: #fff;
+
+}
+#authors .fab{
+  font-size: 25px;
+  color: #17a2b8;
+}
+#authors .card:hover .fab{
+  font-size: 25px;
+  color: #fff;
+}
+.input-group-lg > .input-group-prepend > .input-group-text{
+  border-radius: 0px;
+}
+.form-control-lg, .input-group-lg > .form-control{
+    border-radius: 0px;
+}
